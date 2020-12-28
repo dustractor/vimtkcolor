@@ -13,7 +13,7 @@ import vim
 if sys.version_info.major == 2:
     from Tkinter import Tk,Label
     import tkColorChooser as colorchooser
-elif sys.version_info == 3:
+elif sys.version_info.major == 3:
     from tkinter import Tk,Label,colorchooser
 else:
     pass
